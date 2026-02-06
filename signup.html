@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ExperienceMatch Onboarding</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to ExperienceMatch</h1>
+        <form id="onboarding-form">
+            <h2>Personality Quiz</h2>
+            <label for="personality">Select your personality type:</label>
+            <select id="personality" name="personality">
+                <option value="introvert">Introvert</option>
+                <option value="extrovert">Extrovert</option>
+                <option value="ambivert">Ambivert</option>
+            </select>
+
+            <h2>Interest Tagging</h2>
+            <label for="interests">Choose your interests:</label><br>
+            <input type="checkbox" id="coding" name="interests" value="coding">
+            <label for="coding">Coding</label><br>
+            <input type="checkbox" id="design" name="interests" value="design">
+            <label for="design">Design</label><br>
+            <input type="checkbox" id="marketing" name="interests" value="marketing">
+            <label for="marketing">Marketing</label><br>
+            <input type="checkbox" id="writing" name="interests" value="writing">
+            <label for="writing">Writing</label><br>
+
+            <h2>Availability Setup</h2>
+            <label for="availability">Select your available days:</label><br>
+            <input type="checkbox" id="monday" name="availability" value="monday">
+            <label for="monday">Monday</label><br>
+            <input type="checkbox" id="tuesday" name="availability" value="tuesday">
+            <label for="tuesday">Tuesday</label><br>
+            <input type="checkbox" id="wednesday" name="availability" value="wednesday">
+            <label for="wednesday">Wednesday</label><br>
+            <input type="checkbox" id="thursday" name="availability" value="thursday">
+            <label for="thursday">Thursday</label><br>
+            <input type="checkbox" id="friday" name="availability" value="friday">
+            <label for="friday">Friday</label><br>
+
+            <h2>Goal Selection</h2>
+            <label for="goals">What are your goals?</label><br>
+            <select id="goals" name="goals">
+                <option value="networking">Networking</option>
+                <option value="learning">Learning</option>
+                <option value="job_search">Job Search</option>
+                <option value="collaboration">Collaboration</option>
+            </select>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
